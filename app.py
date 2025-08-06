@@ -44,7 +44,7 @@ def main():
     READY_MESSAGE = "✅ 은율이 준비 완료 💗"
     print(READY_MESSAGE)  # Railway 로그에서 확인 가능
     try:
-        updater.bot.send_message(chat_id="여기에_본인_채팅_ID", text=READY_MESSAGE)
+        updater.bot.send_message(chat_id="7635857092", text=READY_MESSAGE)
     except Exception as e:
         print(f"⚠️ 준비 완료 알림 전송 실패: {e}")
 
@@ -53,3 +53,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
